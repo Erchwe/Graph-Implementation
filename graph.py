@@ -2,7 +2,6 @@ import csv
 from csv import DictWriter
 from collections import defaultdict, deque
 
-# defaultdict utk ngasih default value utk key yang kosong  
 def readGraph(file_path):
     graph = defaultdict(list)
     with open(file_path, mode='r') as file:
